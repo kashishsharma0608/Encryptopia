@@ -1,0 +1,7 @@
+The objective of Encryptopia is to provide a secure and efficient method for encrypting and decrypting sensitive image files using AES (Advanced Encryption Standard). The project focuses on data security and ensures that images remain confidential during storage and transmission, preventing unauthorized access. The primary aim is to demonstrate the application of AES encryption with a focus on securing media content, which can be further extended to other forms of files.
+DESCRIPTION: -
+Encryptopia is a Python-based project that leverages the AES (Advanced Encryption Standard) algorithm in CBC (Cipher Block Chaining) mode for the encryption and decryption of image files. The project is designed to encrypt image files securely by generating a random encryption key and IV (Initialization Vector) to scramble the data. It utilizes padding to handle images of any size, ensuring that they meet the required block size for AES encryption.
+The project consists of two core functionalities:
+1.	Image Encryption: The input image is encrypted using AES with a randomly generated key and IV. The ciphertext, combined with the IV, is saved into a .enc file.
+2.	Image Decryption: The encrypted image is decrypted using the original AES key and IV. The decrypted image is restored to its original form, and the output is saved as a new image file.
+The project is designed to be simple and easy to use, providing a command-line interface where users can specify the input image and receive an encrypted output.
